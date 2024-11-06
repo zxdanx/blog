@@ -2,26 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Document</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog - Inicio</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
 </head>
 
 <body>
-    <div id="contenedor">
-        <div id="menu">
-            <b>MENÚ: </b>
-            <a href="index.html">Inicio</a>
-            |<a href="contacto.html"> Contacto</a>
-            | <b>Articulo No. 1</b>
+<div id="contenedor">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="articulo-1.html">ARTICULO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="zona-encabezado">
-            <h1 id="h1">Historia del lenguaje C</h1>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </nav>
+        <div id="zona-encabezado"><h1>Historia del lenguaje C</h1>
             <p class="texto-encabezado">
                 El lenguaje de programación C fue desarrollado por Dennis Ritchie
                 en los Laboratorios Bell entre 1972 y 1973. Se creó como una evolución
-                del lenguaje B, que a su vez se basaba en BCPL (Basic Combined Programming Language).
+                del lenguaje B, qu
+            <h1 id="h1">Historia dee a su vez se basaba en BCPL (Basic Combined Programming Language).
             </p>
         </div>
 
@@ -50,6 +72,7 @@
             23 de Octube del 2024 | Daniel Estrada Barajas
         </div>
     </div>
+    
 </body>
 
 </html>
